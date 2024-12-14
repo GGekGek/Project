@@ -1,0 +1,124 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+a:link { text-decoration: none; }
+
+[class*="Button"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:4px solid black;
+    border-radius: 10px;
+    h1 {
+        font-size:60px;
+    }
+    h2 {
+        font-size:40px;
+    }
+    :hover {
+        cursor: pointer; 
+        color:white;
+    }
+}
+[class*="Button-h"] {
+    margin:auto;
+    margin-top:100px;
+    min-width: 400px;
+    min-height: 200px;
+    width:40%;
+    height: 20%;
+    background-color: lightblue;
+}
+[class*="Button-s"] {
+    margin:auto;
+    margin-top:250px;
+    min-width: 200px;
+    min-height: 100px;
+    width:20%;
+    height: 10%;
+    background-color: aqua;
+    text-align:center;
+}
+[class*="Button-p"] {
+    margin:0%;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.selection-grid {
+    margin-top:100px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+	gap: 40px;
+}
+
+[class*="Button-for-players"] {
+    width:200px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border:4px solid black;
+    border-radius: 10px;
+}
+.formating {
+    display:flex;
+    border:4px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+PlayerName {
+    position:absolute;
+    top:50px;
+    right:50px;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+Question {
+    width: 300px;
+    height: 150px;
+    background-color: aqua;
+    border:4px solid black;
+    border-radius: 10px;
+}
+form {
+    background-color: lightcyan;
+    text-align:center;
+    border:2px solid black;
+    border-radius: 5px;
+    padding:50px;
+    font-size:20px;
+    input {
+        cursor: pointer; 
+        border-radius: 5px; 
+        transition: background 0.3s; 
+        font-size: 16px
+    }
+}
+Score {
+    font-size:20px;
+}
+FinalScore {
+    width: 200px;
+    padding:20px;
+    background-color: aqua;
+    flex-direction: column;
+    flex-wrap: wrap;
+	gap: 5px;
+}
+
+Timer {
+    position:absolute;
+    top:50px;
+    left:50px;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    font-size: 20px;
+}

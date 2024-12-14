@@ -1,0 +1,122 @@
+{
+    "css": [
+        {
+            "question":"What does the z-index property in CSS control?",
+            "answerA": "The stacking order of elements.",
+            "answerB":"The size of an element.",
+            "answerC":"The position of an element on the screen.",
+            "answerD":"The visibility of an element."
+        },
+        {
+            "question":"Which unit is relative to the font size of the root element (<html>)?",
+            "answerA":"rem",
+            "answerB":"em",
+            "answerC":"px",
+            "answerD":"%"
+        },
+        {
+            "question":"What does the :hover pseudo-class in CSS do?",
+            "answerA":"Applies styles when the mouse hovers over an element.",
+            "answerB":"Applies styles when the element is clicked.",
+            "answerC":"Hides the element temporarily.",
+            "answerD":"Locks an element in place."
+        },
+        {
+            "question":"Which CSS property is used to change the text color of an element?",
+            "answerA":"color",
+            "answerB":"font-color",
+            "answerC":"text-color",
+            "answerD":"foreground-color"
+        }
+    ],
+    "javascript": [
+        {
+            "question":"Which method is used to add an event listener to an element?",
+            "answerA":"addEventListener",
+            "answerB":"addEventHandler",
+            "answerC":"setEventListener",
+            "answerD":"attachListener"
+        },
+        {
+            "question":"How can you declare a variable in JavaScript that cannot be reassigned?",
+            "answerA":"const",
+            "answerB":"let",
+            "answerC":"var",
+            "answerD":"define"
+        },
+        {
+            "question":"Which of the following methods converts a JSON string into a JavaScript object?",
+            "answerA":"JSON.parse()",
+            "answerB":"JSON.stringify()",
+            "answerC":"Object.parse()",
+            "answerD":"JSON.objectify()"
+        },
+        {
+            "question":"What will typeof NaN return in JavaScript?",
+            "answerA":"number",
+            "answerB":"Nan",
+            "answerC":"undefined",
+            "answerD":"object"
+        }
+    ],
+    "html": [
+        {
+            "question":"Which HTML tag is used to create a hyperlink?",
+            "answerA":"a",
+            "answerB":"link",
+            "answerC":"href",
+            "answerD":"url"
+        },
+        {
+            "question":"What is the purpose of the head tag in HTML?",
+            "answerA":"To contain metadata and links to external resources.",
+            "answerB":"To display the title and meta information in the browser.",
+            "answerC":"To structure the content of a webpage.",
+            "answerD":"To include JavaScript only."
+        },
+        {
+            "question":"Which attribute is used to specify an alternative text for an image?",
+            "answerA":"alt",
+            "answerB":"src",
+            "answerC":"title",
+            "answerD":"description"
+        },
+        {
+            "question":"Which of the following is a block-level element by default?",
+            "answerA":"div",
+            "answerB":"span",
+            "answerC":"img",
+            "answerD":"a"
+        }
+    ],
+    "mixed": [
+        {
+            "question":"How do you link an external CSS file in an HTML document?",
+            "answerA":"link rel=stylesheet href=style.css",
+            "answerB":"style src=style.css",
+            "answerC":"css href=style.css",
+            "answerD":"stylesheet link=style.css"
+        },
+        {
+            "question":"What is the correct way to include JavaScript in an HTML document?",
+            "answerA":"script src=script.js /script",
+            "answerB":"js link=script.js /js",
+            "answerC":"javascript src=script.js",
+            "answerD":"include src=script.js /include"
+        },
+        {
+            "question":"Which CSS property is used to control the space between table cells?",
+            "answerA":"border-spacing",
+            "answerB":"padding",
+            "answerC":"margin",
+            "answerD":"cell-gap"
+        },
+        {
+            "question":"Which method in JavaScript can dynamically add a class to an HTML element?",
+            "answerA":"classList.add(",
+            "answerB":"setClassName()",
+            "answerC":"addClass()",
+            "answerD":"setAttribute(class)"
+        }
+    ]
+}
